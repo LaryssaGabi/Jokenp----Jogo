@@ -6,8 +6,7 @@ Este projeto é uma implementação simples do famoso jogo Pedra, Papel e Tesour
 - [Introdução](#introdução)
 - [Como Jogar](#como-jogar)
 - [Estrutura de Arquivos](#estrutura-de-arquivos)
-- [Utilização](#utilização)
-- [Licença](#licença)
+
 
 ## Introdução
 Jokenpô, também conhecido como Pedra, Papel e Tesoura, é um jogo de mãos geralmente jogado entre duas pessoas. O jogo tem três resultados possíveis: empate, vitória ou derrota.
