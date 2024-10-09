@@ -5,12 +5,26 @@
 }
 
 body {
-    background: url(https://source.unsplash.com/1600x900/?landscape);
-    background-size: cover;
+    position: relative; 
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    overflow: hidden; 
+    background-color: #000000;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/Poker.jpeg);
+    background-size: cover;
+    opacity: 0.2; 
+    z-index: -1; 
 }
 
 .container {
@@ -52,8 +66,8 @@ button:hover {
     background-color: #2e0876;
 }
 
-#tisoura {
-    background-color: #670e0e;
+#tesoura {
+    background-color: #9e1818;
 }
 
 p{
@@ -67,4 +81,34 @@ p{
 
 .maquina span{
     color: #069ba3;
+}
+
+#zerar {
+    background-color: #4caf50;
+    height: 40px; 
+    width: 150px; 
+    border: none; 
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+}
+
+#zerar:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+#zerar:active {
+    transform: translateY(0);
+}
+
+.zerarPont{
+    color: white; 
+    margin-top: 10px;
+    font-size: 1rem; 
 }

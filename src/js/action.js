@@ -30,3 +30,9 @@ const playTheGame = (human, machine) => {
         resultado.innerHTML = "Você perdeu da Alexia!";
     }
 }
+
+const zerarPontuacao = () => {
+    pontuacaoHuman.innerHTML = 0;
+    pontuacaoComputer.innerHTML = 0;
+    resultado.innerHTML = ''; 
+}
